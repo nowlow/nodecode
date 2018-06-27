@@ -17,6 +17,7 @@ build:
         opc_user: $OPC_USERNAME
         opc_password: $OPC_PASSWORD
         rest_url: https://apaas.us.oraclecloud.com/paas/service/apaas/api/v1.1/apps
+        storage_url: https://uscom-east-1.storage.oraclecloud.com/auth/v1.0
         domain: $IDENTITY_DOMAIN
         IDENTIFIER: $IDENTIFIER
         application_name: $WERCKER_GIT_OWNER
