@@ -4,7 +4,6 @@ var request = require('request');
 var app = express();
 
 app.use(express.static('public'));
-console.log('Exact name: ' + process.env.ORA_INSTANCE_NAME);
 //runGetRequest();
 
 // Does a GET request to ip.jsontest.com
