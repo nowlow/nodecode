@@ -12,7 +12,8 @@ runGetRequest();
 function runGetRequest() {
     
     //sample URL.
-    var url = "http://129.157.179.180:3000/shield/33/45/blue/nowlow";
+    for(var i = 0; i <= 9; i++) {
+    var url = "http://129.157.179.180:3000/fighters/45/" + i + "/blue/nowlow";
     request(url, function(error, response, body) {
         if(!error) {
             console.log(body);
@@ -20,6 +21,7 @@ function runGetRequest() {
             console.log(error);
         }
     });
+    }
 };
 
 module.exports = app;
